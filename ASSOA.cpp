@@ -73,7 +73,7 @@ void get_ass_clip(char assn[], node nodearr[], int& pos, double frate, int maxf)
 }
 
 int main(int argc, char **argv){
-	int assc = argc - 4; //e.g.  .\asscoa 24001 1001 20000 a.ass b.ass c.ass
+	int assc = argc - 4; //e.g.  .\ASSOA 24000 1001 20000 a.ass b.ass c.ass
 	char assn[MAX_ASS_COUNT][MAX_FILENAME_LENGTH];
 	node nodearr[MAX_ASS_COUNT * 2];
 	int pos = 0;
