@@ -8,7 +8,7 @@ If .ass file's end frame is equal/late than [Maxium Frame], the end frame will b
 If it's start frame is equal/late than [Maxium Frame] - 1, it's ignored.
 
 # EXAMPLE
-.\ASSOA 24000 1001 20000 a.ass b.css c.ass
+.\ASSOA 24000 1001 20000 a.ass b.ass c.ass
 
 a.ass: start: 179, end: 19999
 b.ass: start: 618, end: 19999
